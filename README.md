@@ -18,15 +18,15 @@ The resulting adder takes two 4-bit binary inputs (**A3-A0**, **B3-B0**) and a c
 
 | Component        | Quantity | Description                            |
 |------------------|----------|----------------------------------------|
-| 74HC86           | 1        | Quad XOR gate                          |
-| 74HC08           | 1        | Quad AND gate                          |
+| 74HC86           | 2        | Quad XOR gate                          |
+| 74HC08           | 2        | Quad AND gate                          |
 | 74HC32           | 1        | Quad OR gate                           |
-| LEDs             | 5+       | For indicating Sum and Carry outputs   |
-| DIP Switches     | 9        | For inputting A3–A0, B3–B0, and Cin     |
+| LEDs             | 5       | For indicating Sum and Carry outputs   |
+| DIP Switches     | 8        | For inputting A3–A0, B3–B0, and Cin     |
 | Breadboard       | 1        | Solderless breadboard for prototyping  |
 | Jumper Wires     | Many     | For interconnections                   |
-| Power Supply     | 1        | 5V regulated DC                        |
-| Resistors (220Ω) | As needed| For current limiting to LEDs           |
+| Power Supply     | 1        | 9V regulated DC                        |
+| Resistors (220Ω) | 8| For current limiting to LEDs           |
 
 ---
 
