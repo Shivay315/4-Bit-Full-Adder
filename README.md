@@ -72,10 +72,10 @@ The adder is structured as follows:
 ## 📸 Images
 
 ### 🔌 Breadboard Setup (Top View)
-![Breadboard Top View](Images/Adder.jpg)
+![Breadboard Top View](Images/Adder2.jpg)
 
 ### 📐 Breadboard Setup (Side View)
-![Breadboard Side View](Images/Adder2.jpg)
+![Breadboard Side View](Images/Adder.jpg)
 
 ### 🧾 Logic Circuit Schematic
 ![4-Bit Full Adder Schematic](Images/Schematic.png)
