@@ -78,7 +78,7 @@ The adder is structured as follows:
 ![Breadboard Side View](Images/Adder2.jpg)
 
 ### 🧾 Logic Circuit Schematic
-![4-Bit Full Adder Schematic](Images/schematic.png)
+![4-Bit Full Adder Schematic](Images/Schematic.png)
 
 
 ---
