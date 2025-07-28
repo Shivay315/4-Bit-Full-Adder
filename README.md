@@ -1,8 +1,8 @@
-# 🔢 4-Bit Full Adder Using Logic Gates on Breadboard
+# 4-Bit Full Adder Using Logic Gates on Breadboard
 
 This project demonstrates a **4-bit full adder circuit** implemented entirely with basic logic gate ICs: **74HC86 (XOR), 74HC08 (AND), and 74HC32 (OR)**. The full adder design is built and tested on a breadboard to perform binary addition of two 4-bit numbers along with a carry-in input.
 
-## 🧠 Abstract
+## Abstract
 
 The goal of this project was to construct a hardware-based 4-bit binary adder using only fundamental logic gates, avoiding pre-built adder ICs. The adder was implemented using three ICs:
 
@@ -14,7 +14,7 @@ The resulting adder takes two 4-bit binary inputs (**A3-A0**, **B3-B0**) and a c
 
 ---
 
-## 🔧 Components Used
+## Components Used
 
 | Component        | Quantity | Description                            |
 |------------------|----------|----------------------------------------|
@@ -30,7 +30,7 @@ The resulting adder takes two 4-bit binary inputs (**A3-A0**, **B3-B0**) and a c
 
 ---
 
-## 🧮 Theory
+## Theory
 
 A **1-bit full adder** takes three inputs: A, B, and Carry-in, and produces two outputs: Sum and Carry-out.
 
@@ -42,7 +42,7 @@ To construct a **4-bit adder**, we cascade four 1-bit full adders. The Carry-out
 
 ---
 
-## 🔌 Circuit Design
+## Circuit Design
 
 The adder is structured as follows:
 
@@ -55,4 +55,42 @@ The adder is structured as follows:
    - 1 OR gate
 
 ### Functional Block per Bit:
+
+
+
+---
+
+## 🔬 Observations
+
+- The outputs for each bit are displayed using LEDs.
+- Inputs are set using DIP switches.
+- Propagation delay is noticeable due to gate delays but acceptable for educational purposes.
+- Ensures functional correctness for all 2⁹ (512) input combinations through manual testing or input cycling.
+
+---
+
+## 📸 Images
+
+_Add actual images here if available for visual reference (breadboard layout, IC placements, wiring)._
+
+---
+
+## 💭 Discussion
+
+This project demonstrates how digital addition can be implemented from scratch using basic gate-level logic. It forms the foundation of understanding how Arithmetic Logic Units (ALUs) work in processors.
+
+Benefits of the project include:
+- Hands-on learning of logic gate behavior
+- Practical understanding of combinational logic
+- Insight into ripple carry adder design
+
+Limitations:
+- Delay in carry propagation (ripple effect)
+- Scalability is limited due to manual wiring complexity
+
+---
+
+## 📁 Folder Structure
+
+
 
