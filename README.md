@@ -58,7 +58,7 @@ The adder is structured as follows:
 
 ---
 
-## 🔬 Observations
+## Observations
 
 - The outputs for each bit are displayed using LEDs.
 - Inputs are set using DIP switches.
@@ -67,23 +67,21 @@ The adder is structured as follows:
 
 ---
 
-## 📸 Images
+## Images
 
-## 📸 Images
-
-### 🔌 Breadboard Setup (Top View)
+### Breadboard Setup (Top View)
 ![Breadboard Top View](Images/Adder2.jpg)
 
-### 📐 Breadboard Setup (Side View)
+### Breadboard Setup (Side View)
 ![Breadboard Side View](Images/Adder.jpg)
 
-### 🧾 Logic Circuit Schematic
+### Logic Circuit Schematic
 ![4-Bit Full Adder Schematic](Images/Schematic.png)
 
 
 ---
 
-## 💭 Discussion
+## Discussion
 
 This project demonstrates how digital addition can be implemented from scratch using basic gate-level logic. It forms the foundation of understanding how Arithmetic Logic Units (ALUs) work in processors.
 
