@@ -54,8 +54,6 @@ The adder is structured as follows:
    - 2 AND gates
    - 1 OR gate
 
-### Functional Block per Bit:
-
 
 
 ---
@@ -71,7 +69,17 @@ The adder is structured as follows:
 
 ## 📸 Images
 
-_Add actual images here if available for visual reference (breadboard layout, IC placements, wiring)._
+## 📸 Images
+
+### 🔌 Breadboard Setup (Top View)
+![Breadboard Top View](Images/Adder.jpg)
+
+### 📐 Breadboard Setup (Side View)
+![Breadboard Side View](Images/Adder2.jpg)
+
+### 🧾 Logic Circuit Schematic
+![4-Bit Full Adder Schematic](images/schematic.png)
+
 
 ---
 
@@ -89,8 +97,6 @@ Limitations:
 - Scalability is limited due to manual wiring complexity
 
 ---
-
-## 📁 Folder Structure
 
 
 
